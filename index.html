@@ -275,20 +275,22 @@
   // جدول ترتيب - كورة (مع تعادل)
   function standingsTableFootball(rows) {
     return `
-      <div class="table-head" style="grid-template-columns:34px 1fr 32px 32px 32px 44px">
+      <div class="table-head" style="grid-template-columns:34px 1fr 32px 32px 32px 38px 44px">
         <span>#</span><span>الفريق</span>
         <span style="text-align:center">ف</span>
         <span style="text-align:center">ت</span>
         <span style="text-align:center">خ</span>
+        <span style="text-align:center">±</span>
         <span style="text-align:center">نقاط</span>
       </div>
       ${rows.map(t => `
-        <div class="table-row" style="grid-template-columns:34px 1fr 32px 32px 32px 44px">
+        <div class="table-row" style="grid-template-columns:34px 1fr 32px 32px 32px 38px 44px">
           <span class="rank-badge ${rankCls(t.rank)}">${t.rank}</span>
           <span class="name">${t.name}</span>
           <span class="num">${t.w}</span>
           <span class="num">${t.d}</span>
           <span class="num">${t.l}</span>
+          <span class="num" style="color:${t.gd > 0 ? 'var(--teal)' : t.gd < 0 ? '#e05252' : 'var(--text-secondary)'};font-weight:600">${t.gd > 0 ? '+' : ''}${t.gd}</span>
           <span class="pts">${t.pts}</span>
         </div>
       `).join('')}
