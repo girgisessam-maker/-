@@ -90,7 +90,7 @@ const domino = {
   groupA: {
     name: 'المجموعة الأولى',
     standings: [
-      { rank:1, name:'الماسة', p:4, w:4, l:0, pts:8 },
+      { rank:1, name:'llll', p:4, w:4, l:0, pts:8 },
       { rank:2, name:'السيف',  p:4, w:3, l:1, pts:6 },
       { rank:3, name:'الذهب',  p:4, w:2, l:2, pts:4 },
       { rank:4, name:'الفضة',  p:4, w:1, l:3, pts:2 },
