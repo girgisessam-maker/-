@@ -87,14 +87,29 @@ const volleyball = {
 
 const domino = {
 
-  standings: [
-    { rank:1, name:'جرجس', p:4, w:4, l:0, pts:8 },
-    { rank:2, name:'مينا',  p:4, w:3, l:1, pts:6 },
-    { rank:3, name:'اكيرلس',  p:4, w:2, l:2, pts:4 },
-    { rank:4, name:'كريم',  p:4, w:1, l:3, pts:2 },
-    { rank:5, name:'خالد', p:4, w:0, l:4, pts:0 },
-    // { rank:6, name:'اسم الفريق', p:0, w:0, l:0, pts:0 },
-  ],
+  groupA: {
+    name: 'المجموعة الأولى',
+    standings: [
+      { rank:1, name:'الماسة', p:4, w:4, l:0, pts:8 },
+      { rank:2, name:'السيف',  p:4, w:3, l:1, pts:6 },
+      { rank:3, name:'الذهب',  p:4, w:2, l:2, pts:4 },
+      { rank:4, name:'الفضة',  p:4, w:1, l:3, pts:2 },
+      { rank:5, name:'الحديد', p:4, w:0, l:4, pts:0 },
+      // { rank:6, name:'اسم الفريق', p:0, w:0, l:0, pts:0 },
+    ],
+  },
+
+  groupB: {
+    name: 'المجموعة الثانية',
+    standings: [
+      { rank:1, name:'النسر',   p:4, w:4, l:0, pts:8 },
+      { rank:2, name:'الصقر',   p:4, w:3, l:1, pts:6 },
+      { rank:3, name:'البرق',   p:4, w:2, l:2, pts:4 },
+      { rank:4, name:'الريح',   p:4, w:1, l:3, pts:2 },
+      { rank:5, name:'الأمل',   p:4, w:0, l:4, pts:0 },
+      // { rank:6, name:'اسم الفريق', p:0, w:0, l:0, pts:0 },
+    ],
+  },
 
 };
 
