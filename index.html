@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>دورى ابطال الشهداء 2</title>
+<title>ترتيب الأنشطة الرياضية</title>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -40,7 +40,7 @@
     margin-bottom: 24px;
   }
   .logo-pill img{
-    width: 90px;
+    width: 100px;
     height: 75px;
   }
 
@@ -48,12 +48,15 @@
     background: var(--card-bg);
     border: 0.5px solid var(--border);
     border-radius: var(--radius-md);
-    padding: 4px 10px;
+    padding: 8px 14px;
     font-size: 12px;
     font-weight: 600;
     color: var(--text-secondary);
     text-align: center;
     line-height: 1.5;
+    opacity: 0;
+    transform: translateY(-18px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
   }
   .logo-pill1 img{
     width: 80px;
@@ -69,6 +72,13 @@
     color: var(--text-secondary);
     text-align: center;
     line-height: 1.5;
+    opacity: 0;
+    transform: translateY(-18px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  .logo-pill.visible, .logo-pill1.visible {
+    opacity: 1;
+    transform: translateY(0);
   }
 
   .page-header { margin-bottom: 20px; }
@@ -381,14 +391,31 @@
       return;
     }
 
-    // ======= دومنه (بدون تعادل) =======
+    // ======= دومنه (بدون تعادل - مجموعتين) =======
     if (cur === 'domino') {
-      area.innerHTML = `<div class="section-card">${standingsTableNoDraws(data.domino.standings, 'الفريق')}</div>`;
+      area.innerHTML = `
+        <div class="groups-wrap">
+          <div class="section-card">
+            <div class="group-label">${data.domino.groupA.name}</div>
+            ${standingsTableNoDraws(data.domino.groupA.standings, 'الفريق')}
+          </div>
+          <div class="section-card">
+            <div class="group-label">${data.domino.groupB.name}</div>
+            ${standingsTableNoDraws(data.domino.groupB.standings, 'الفريق')}
+          </div>
+        </div>
+      `;
       return;
     }
   }
 
   render();
+
+  // Logo entrance animation
+  const logos = document.querySelectorAll('.logo-pill, .logo-pill1');
+  logos.forEach((el, i) => {
+    setTimeout(() => el.classList.add('visible'), 80 + i * 150);
+  });
 </script>
 </body>
 </html>
