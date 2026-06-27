@@ -80,12 +80,14 @@ const domino = {
   groupA: {
     name: 'المجموعة الأولى',
     standings: [
-      { rank:1, name:'llll', p:4, w:4, l:0, pts:8 },
-      { rank:2, name:'السيف',  p:4, w:3, l:1, pts:6 },
-      { rank:3, name:'الذهب',  p:4, w:2, l:2, pts:4 },
-      { rank:4, name:'الفضة',  p:4, w:1, l:3, pts:2 },
-      { rank:5, name:'الحديد', p:4, w:0, l:4, pts:0 },
-      // { rank:6, name:'اسم الفريق', p:0, w:0, l:0, pts:0 },
+      { rank:1, name:'كيرلس مجدى', p:3, w:3, l:0, pts:3 },
+      { rank:2, name:'صبرى عوض',  p:3, w:2, l:1, pts:2 },
+      { rank:3, name:'رسمى فهمى',  p:3, w:2, l:1, pts:2 },
+      { rank:4, name:'فادى شهدى',  p:3, w:1, l:2, pts:1 },
+      { rank:5, name:'برسوم', p:3, w:1, l:2, pts:1 },
+      { rank:6, name:'ميلاد ابراهيم', p:4, w:1, l:3, pts:1 },
+      { rank:7, name:'بيشوى رابح', p:3, w:1, l:2, pts:1 },
+      //{ rank:5, name:'برسوم', p:4, w:0, l:4, pts:0 },
     ],
   },
 
