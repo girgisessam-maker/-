@@ -66,7 +66,7 @@ const chess = {
 const volleyball = {
 
   standings: [
-
+    {coming soon}
   ],
 
 };
