@@ -53,12 +53,12 @@ const football = {
 
 const chess = {
 
-  standings: [
-    { rank:1, name:'أنطوان رفعت', p:5, w:5, d:0, l:0, pts:10 },
-    { rank:2, name:'جورج مجدي',   p:5, w:4, d:0, l:1, pts:8  },
-    { rank:3, name:'مرقس هاني',   p:5, w:3, d:0, l:2, pts:6  },
-    { rank:4, name:'بطرس عماد',   p:5, w:2, d:0, l:3, pts:4  },
-    { rank:5, name:'كيرلس رامي',  p:5, w:1, d:0, l:4, pts:2  },
+  // standings: [
+  //   { rank:1, name:'أنطوان رفعت', p:5, w:5, d:0, l:0, pts:10 },
+  //   { rank:2, name:'جورج مجدي',   p:5, w:4, d:0, l:1, pts:8  },
+  //   { rank:3, name:'مرقس هاني',   p:5, w:3, d:0, l:2, pts:6  },
+  //   { rank:4, name:'بطرس عماد',   p:5, w:2, d:0, l:3, pts:4  },
+  //   { rank:5, name:'كيرلس رامي',  p:5, w:1, d:0, l:4, pts:2  },
     // { rank:6, name:'اسم اللاعب', p:0, w:0, d:0, l:0, pts:0 },
   ],
 
