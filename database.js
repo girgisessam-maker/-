@@ -37,11 +37,17 @@ const football = {
   // الهدافين
   // الحقول: rank (المركز), name (اسم اللاعب), team (الفريق), goals (أهداف)
   scorers: [
-    { rank:1, name:'مرقس جورج',    team:'مارجرجس',  goals:9 },
-    { rank:2, name:'بولس ميخائيل', team:'ماريوحنا',  goals:7 },
-    { rank:3, name:'كيرلس أنطون',  team:'البطل',  goals:6 },
-    { rank:4, name:'بيشوي نبيل',   team:'الانبا موسى',   goals:5 },
-    { rank:5, name:'مينا سامي',   team:'القديس ابانوب',  goals:4 },
+    { rank:1, name:'جون',    team:'العدرا والسمائيين',  goals:7 },
+    { rank:2, name:'امير ابراهيم', team:'العدرا والسمائيين ',  goals:4 },
+    { rank:3, name:'رافت',  team:'القديس ابانوب',  goals:4 },
+    { rank:4, name:'بيتر زاهر ',   team:'مارجرجس',   goals:4 },
+    { rank:5, name:'مارسلينو',   team:'العدرا والسمائيين',  goals:3 },
+    { rank:5, name:'خالد',   team:'القديس ابانوب',  goals:3 },
+    { rank:5, name:'يسي حناوى',   team:'ابونا يسى',  goals:3 },
+    { rank:5, name:'عونى ',   team:'الامير تادرس',  goals:3 },
+    { rank:5, name:'ماجد عيسى',   team:'ابونا فلتاؤس',  goals:3 },
+    { rank:5, name:'كيرلس صالح',   team:'ابونا فلتاؤس',  goals:3 },
+
     // لإضافة هداف: { rank:6, name:'اسم اللاعب', team:'اسم الفريق', goals:0 },
   ],
 
