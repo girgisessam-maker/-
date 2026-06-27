@@ -66,7 +66,7 @@ const chess = {
 const volleyball = {
 
   standings: [
-    {coming soon}
+    
   ],
 
 };
@@ -94,11 +94,13 @@ const domino = {
   groupB: {
     name: 'المجموعة الثانية',
     standings: [
-      { rank:1, name:'النسر',   p:4, w:4, l:0, pts:8 },
-      { rank:2, name:'الصقر',   p:4, w:3, l:1, pts:6 },
-      { rank:3, name:'البرق',   p:4, w:2, l:2, pts:4 },
-      { rank:4, name:'الريح',   p:4, w:1, l:3, pts:2 },
-      { rank:5, name:'الأمل',   p:4, w:0, l:4, pts:0 },
+      { rank:1, name:'موسي جميل',   p:3, w:3, l:0, pts:3 },
+      { rank:2, name:'ارمانى القمص',   p:3, w:2, l:1, pts:2 },
+      { rank:3, name:'اشرف عاطف',  p:3, w:1, l:2, pts:1 },
+      { rank:4, name:'كيرلس جميل',   p:4, w:1, l:3, pts:1 },
+      { rank:5, name:'سامى مسعود',   p:2, w:1, l:1, pts:1 },
+      { rank:5, name:'اباكير رومانى',   p:2, w:1, l:1, pts:1 },
+      { rank:5, name:'جرجس عصام',   p:3, w:1, l:2, pts:1 },
       // { rank:6, name:'اسم الفريق', p:0, w:0, l:0, pts:0 },
     ],
   },
