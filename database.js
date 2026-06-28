@@ -14,7 +14,7 @@ const football = {
     name: 'المجموعة الأولى',
     standings: [
       { rank:1, name:'ابونا فلتاؤس',   p:2, w:2, d:0, l:0, gd:+4, pts:6  },
-      { rank:2, name:'العدرا والسمائيين',   p:2, w:1, d:0, l:0, gd:+2, pts:3 },
+      { rank:2, name:'العدرا والسمائيين',   p:2, w:1, d:0, l:1, gd:+2, pts:3 },
       { rank:3, name:'القديس ابانوب', p:2, w:1, d:0, l:1, gd:-2, pts:3 },
       { rank:4, name:'ماريوحنا', p:1, w:0, d:0, l:1, gd:-1, pts:0 },
       { rank:5, name:'ابونا يسي',  p:1, w:0, d:0, l:1, gd:-3, pts:0 },
