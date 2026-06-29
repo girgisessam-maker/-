@@ -13,11 +13,12 @@ const football = {
   groupA: {
     name: 'المجموعة الأولى',
     standings: [
-      { rank:1, name:'ابونا فلتاؤس',   p:2, w:2, d:0, l:0, gd:+4, pts:6  },
-      { rank:2, name:'العدرا والسمائيين',   p:2, w:1, d:0, l:1, gd:+2, pts:3 },
-      { rank:3, name:'القديس ابانوب', p:2, w:1, d:0, l:1, gd:-2, pts:3 },
-      { rank:4, name:'ماريوحنا', p:1, w:0, d:0, l:1, gd:-1, pts:0 },
-      { rank:5, name:'ابونا يسي',  p:1, w:0, d:0, l:1, gd:-3, pts:0 },
+      
+      { rank:1, name:'ماريوحنا', p:3, w:2, d:0, l:1, gd:+5, pts:6 },
+      { rank:2, name:'ابونا فلتاؤس',   p:2, w:2, d:0, l:0, gd:+4, pts:6  },
+      { rank:3, name:'العدرا والسمائيين',   p:2, w:1, d:0, l:1, gd:+2, pts:3 },
+      { rank:4, name:'القديس ابانوب', p:3, w:1, d:0, l:2, gd:-4, pts:3 },
+      { rank:5, name:'ابونا يسي',  p:2, w:0, d:0, l:2, gd:-7, pts:0 },
       // لإضافة فريق: { rank:6, name:'اسم الفريق', p:4, w:4, d:0, l:0, gd:+10, pts:12 },
     ],
   },
@@ -25,11 +26,12 @@ const football = {
   groupB: {
     name: 'المجموعة الثانية',
     standings: [
-      { rank:1, name:'الامير تادرس',   p:1, w:1, d:0, l:0, gd:+7, pts:3 },
-      { rank:2, name:'مارجرجس',  p:1, w:1, d:0, l:0, gd:+2, pts:3 },
-      { rank:3, name:'الانبا موسي',    p:2, w:1, d:0, l:1, gd:-6, pts:3 },
-      { rank:4, name:'مارمينا',    p:1, w:0, d:0, l:1, gd:-1, pts:0 },
-      { rank:5, name:'البطل',    p:1, w:0, d:0, l:1, gd:-2, pts:0 },
+      
+      { rank:1, name:'الامير تادرس',   p:2, w:2, d:0, l:0, gd:+11, pts:6 },
+      { rank:2, name:'الانبا موسي',    p:3, w:2, d:0, l:1, gd:0, pts:6  },
+      { rank:3, name:'مارمينا',    p:2, w:1, d:0, l:1, gd:+2, pts:3 },
+      { rank:4, name:'مارجرجس',  p:3, w:1, d:0, l:2, gd:-8, pts:3 },
+      { rank:5, name:'البطل',    p:2, w:0, d:0, l:2, gd:-5, pts:0 },
       // لإضافة فريق: { rank:6, name:'اسم الفريق', p:4, w:4, d:0, l:0, gd:+10, pts:12  },
     ],
   },
@@ -38,15 +40,14 @@ const football = {
   // الحقول: rank (المركز), name (اسم اللاعب), team (الفريق), goals (أهداف)
   scorers: [
     { rank:1, name:'جون',    team:'العدرا والسمائيين',  goals:7 },
-    { rank:2, name:'امير ابراهيم', team:'العدرا والسمائيين ',  goals:4 },
-    { rank:2, name:'رافت',  team:'القديس ابانوب',  goals:4 },
-    { rank:2, name:'بيتر زاهر ',   team:'مارجرجس',   goals:4 },
-    { rank:3, name:'مارسلينو',   team:'العدرا والسمائيين',  goals:3 },
-    { rank:3, name:'خالد',   team:'القديس ابانوب',  goals:3 },
-    { rank:3, name:'يسي حناوى',   team:'ابونا يسى',  goals:3 },
-    { rank:3, name:'عونى ',   team:'الامير تادرس',  goals:3 },
-    { rank:3, name:'ماجد عيسى',   team:'ابونا فلتاؤس',  goals:3 },
-    { rank:3, name:'كيرلس صالح',   team:'ابونا فلتاؤس',  goals:3 },
+    { rank:2, name:'كاراس وليم',   team:'الامير تادرس',  goals:6 },
+    { rank:3, name:'كيرلس سامى',   team:'الانبا موسي',  goals:5 },
+    { rank:3, name:'بيتر زاهر ',   team:'مارجرجس',   goals:5 },
+    { rank:4, name:'رافت',  team:'القديس ابانوب',  goals:4  },
+    { rank:4, name:'امير ابراهيم', team:'العدرا والسمائيين ',  goals:4 },
+    { rank:4, name:'يسي حناوى',   team:'ابونا يسى',  goals:4 },
+    { rank:4, name:'امير عماد',   team:'الانبا موسي',  goals:4 },
+
 
     // لإضافة هداف: { rank:6, name:'اسم اللاعب', team:'اسم الفريق', goals:0 },
   ],
